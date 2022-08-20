@@ -1,0 +1,33 @@
+{
+  "name": "login_api",
+  "version": "1.0.0",
+  "description": "Creating a login api using jwt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjai24/LoginAPI.git"
+  },
+  "author": "Sanjai S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjai24/LoginAPI/issues"
+  },
+  "homepage": "https://github.com/Sanjai24/LoginAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "dotenv-expand": "^8.0.3",
+    "express": "^4.18.1",
+    "fcm-node": "^1.6.1",
+    "forever": "^4.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18"
+  }
+}
